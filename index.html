@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Advisor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!--FIRST LINE-->
+    <div class="title__bar">
+        <div class="logo__title__cnt1">
+            <div class="logo1">
+                <img src="./images/Owl.png">
+            </div>
+            <h1 class="title__txt"> Tripadvisor </h1>
+        </div>
+        <div class="title__cnt2">
+            <p>Discover</p>
+            <p>Trips</p>
+            <p>Review</p>
+            <p>More</p>
+        </div>
+        <div class="title__cnt3">
+            <div class="globe">
+                <i class="fa-solid fa-globe">
+                </i>
+            </div>
+            <div> | </div>
+            <div class="curr"> INR </div>
+            <div class="sign__in">Sign in
+            </div>
+        </div>
+
+    </div>
+    <!--FIRST LINE for mobile view-->
+    <div class="title__barm">
+        <div class="logo__title__cnt1m">
+            <div class="logo1m">
+                <img src="./images/Owl.png">
+            </div>
+            <h1 class="title__txtm"> Tripadvisor </h1>
+        </div>
+        <div class="nav__bar__cntm">
+            
+            <input placeholder="Places to go. ."> </input>
+        </div>
+        <div class="nav__bar__searchm">
+            <p class="srch"> </p>
+        </div>
+        <div class="title__cnt3m">
+            <div class="sign__inm">
+                Sign in
+            </div>
+        </div>
+
+    </div>
+
+    <!--SECOND LINE-->
+    <div class="where__to">
+        <h1> Where To? </h1>
+    </div>
+
+    <!--- Navigation Menu using UI-->
+
+    <nav class="nav-menu">
+        <ul class="nav-list">
+            <li><i class="fa-solid fa-house"></i> Search All</li>
+            <li><i class="fa-solid fa-bed"></i> Hotel</li>
+            <li><i class="fa-solid fa-camera"></i> Things to do</li>
+            <li><i class="fa-solid fa-utensils"></i> Restaurants</li>
+            <li><i class="fa-solid fa-plane"></i> Flights</li>
+            <li><i class="fa-solid fa-key"></i> Holiday Rentals</li>
+        </ul>
+    </nav>
+
+    <!--Navigation bar SEARCH Section-->
+    <div class="nav__bar">
+        <div class="nav__bar__cnt">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input placeholder="Places to go, things to do, hotels..."></input>
+        </div>
+        <div class="nav__bar__search">
+            <p class="srch"> Search </p>
+        </div>
+
+        <div class="filter__section">
+            <div class="filter__group">
+                <label for="price">Price Range:</label>
+                <select id="price" name="price">
+                    <option value="">Select</option>
+                    <option value="low">₹ - Low</option>
+                    <option value="medium">₹₹ - Medium</option>
+                    <option value="high">₹₹₹ - High</option>
+                </select>
+            </div>
+
+            <div class="filter__group">
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating">
+                    <option value="">Select</option>
+                    <option value="1">1+ stars</option>
+                    <option value="2">2+ stars</option>
+                    <option value="3">3+ stars</option>
+                    <option value="4">4+ stars</option>
+                    <option value="5">5 stars</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!--Photos - Browse exp-->
+    <div class="photo__exp__cnt">
+        <img src="./images/auroraimg1.jpg" alt-image="aurora">
+        <div class="photo__thin__line"> </div>
+        <div class="exp__cnt">
+            <div class="exp__one"> Find things to do for everything you're into </div>
+            <div class="exp__two"> Browse 400,000+ experiences and book with us </div>
+            <div class="exp__three"> Book now </div>
+        </div>
+    </div>
+
+    <!--Do something Award Winning-->
+    <div class="photo__sec__one">
+        <div class="photo__sec__one__cnt">
+            <h3> Do something award-winning </h3>
+            <h7> 2025's Travellers’ Choice Awards Best of the Best Things to Do </h7>
+            <div class="images__lst">
+                <div class="image__one">
+                    <img src="./images/auroraimg1.jpg" alt="image1">
+                    <div class="cpn__one"> Top Experiences </div>
+                </div>
+
+                <div class="image__two">
+                    <img src="./images/auroraimg1.jpg" alt="image2">
+                    <div class="cpn__two"> Top Attractions </div>
+                </div>
+
+                <div class="image__three">
+                    <img src="./images/auroraimg1.jpg" alt="image3">
+                    <div class="cpn__three"> Bucket List </div>
+                </div>
+
+                <div class="image__four">
+                    <img src="./images/auroraimg1.jpg" alt="image4">
+                    <div class="cpn__four"> Cultural & Historic </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Explore experiences near Singapore-->
+    <div>
+        <div class="nrphoto__sec__one__cnt">
+            <h3> Explore experiences near Singapore </h3>
+            <h7> Can’t-miss picks near you </h7>
+            <div class="nrphoto__lst">
+                <div class="nrphoto__one">
+                    <img src="./images/auroraimg1.jpg" alt="nrphoto1">
+                    <div class="nrcpn__one"> Singapore Starry Night : Cruise, Rhapsody & Spectra </div>
+                    <div> 4.5 <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle-half-stroke" style="color:  #05cc65;"></i> (787)
+                        <div> from 999 per adult </div>
+                        <div class="hrt"> <i class="fa-regular fa-heart"></i> </div>
+                    </div>
+                </div>
+
+                <div class="nrphoto__two">
+                    <img src="./images/auroraimg1.jpg" alt="image2">
+                    <div class="nrcpn__two"> Small Group: Michelin and Local Hawker Food Tour </div>
+                    <div> 4 <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i> (658)
+                        <div> from 999 per adult </div>
+                        <div class="hrt"> <i class="fa-regular fa-heart"></i> </div>
+                    </div>
+
+                </div>
+
+                <div class="nrphoto__three">
+                    <img src="./images/auroraimg1.jpg" alt="image3">
+                    <div class="nrcpn__three"> Singapore River Cruise Tour with E-Tickets </div>
+                    <div> 4.5 <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle-half-stroke" style="color:  #05cc65;"></i> (1299)
+                        <div> from 999 per adult </div>
+                        <div class="hrt"> <i class="fa-regular fa-heart"></i> </div>
+                    </div>
+                </div>
+
+                <div class="nrphoto__four">
+                    <img src="./images/auroraimg1.jpg" alt="image4">
+                    <div class="nrcpn__four"> Singapore River Cruise and 2 Must-see Water Light Shows </div>
+                    <div> 4 <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i> (968)
+                        <div> from 999 per adult </div>
+                        <div class="hrt"> <i class="fa-regular fa-heart"></i> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---The worlds best things to do-->
+    <div class="world__img__cpn">
+        <img class="world__img" src="./images/randomimg.jpg" alt="worldimg">
+        <div class="cpn__best__one"> The worlds best things to do </div>
+        <div class="cpn__best__two"> Make it a trip to remember with 2025’s Travellers’ Choice Awards Best of the Best.
+        </div>
+        <div class="cpn__best__three"> Reveal the winners </div>
+        <div class="bst__img"> <img src="./images/Owl logo 2025 .png"> </div>
+    </div>
+
+    <!--Inspiration to get you going-->
+    <div class="ins__img__cpn">
+        <h3 class="ins__img__title"> Inspiration to get you going </h3>
+        <div class="ins__img__lst">
+            <div class="ins__img__one">
+                <img src="./images/randomimg.jpg" alt="insimg1">
+                <div class="ins__img__txt">The ultimate family travel guide</div>
+                <div class="hrt__two"> <i class="fa-regular fa-heart"></i> </div>
+            </div>
+            <div class="ins__img__two"> <img src="./images/randomimg.jpg" alt="insimg1">
+                <div class="ins__img__txt">Where to stargaze around the world, from Utah to Dubai</div>
+                <div class="hrt__three"> <i class="fa-regular fa-heart"></i> </div>
+            </div>
+
+            <div class="ins__img__three"> <img src="./images/randomimg.jpg" alt="insimg1">
+                <div class="ins__img__txt">Load up on art in Paris, NYC, and other culture hot spots</div>
+                <div class="hrt__three"> <i class="fa-regular fa-heart"></i> </div>
+            </div>
+        </div>
+    </div>
+    <!--Things to do—right now-->
+    <div>
+        <div class="nrphoto__sec__one__cnt">
+            <h3> Things to do—right now </h3>
+            <h7> Seasonal faves you don’t want to miss </h7>
+            <div class="nrphoto__lst">
+                <div class="nrphoto__one">
+                    <img src="./images/auroraimg1.jpg" alt="nrphoto1">
+                    <div class="plc__nm"> Sorrento </div>
+                    <div class="nrcpn__one"> Small-group boat tour of the Amalfi Coast from Sorrento </div>
+                    <div> 4.5 <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle-half-stroke" style="color:  #05cc65;"></i> (687)
+                        <div> from 999 per adult </div>
+                        <div class="hrt"> <i class="fa-regular fa-heart"></i> </div>
+                    </div>
+                </div>
+
+                <div class="nrphoto__two">
+                    <img src="./images/auroraimg1.jpg" alt="image2">
+                    <div class="plc__nm"> Sorrento </div>
+                    <div class="nrcpn__two"> Dolphins Search and Benagil Caves from Albufeira </div>
+                    <div> 4 <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i> (758)
+                        <div> from 999 per adult </div>
+                        <div class="hrt"> <i class="fa-regular fa-heart"></i> </div>
+                    </div>
+
+                </div>
+
+                <div class="nrphoto__three">
+                    <img src="./images/auroraimg1.jpg" alt="image3">
+                    <div class="plc__nm"> Sorrento </div>
+                    <div class="nrcpn__three"> Explore Banff National Park with Our Premium Day Tour </div>
+                    <div> 4.5 <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle-half-stroke" style="color:  #05cc65;"></i> (2299)
+                        <div> from 999 per adult </div>
+                        <div class="hrt"> <i class="fa-regular fa-heart"></i> </div>
+                    </div>
+                </div>
+
+                <div class="nrphoto__four">
+                    <img src="./images/auroraimg1.jpg" alt="image4">
+                    <div class="plc__nm"> Sorrento </div>
+                    <div class="nrcpn__four"> Whitewater Rafting in Jackson Hole: Small Boat Excitement </div>
+                    <div> 4 <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i>
+                        <i class="fa-solid fa-circle" style="color: #05cc65;"></i> (490)
+                        <div> from 999 per adult </div>
+                        <div class="hrt"> <i class="fa-regular fa-heart"></i> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Iconic places you need to see-->
+    <div class="photo__sec__one">
+        <div class="photo__sec__one__cnt">
+            <h3> Iconic places you need to see </h3>
+            <div class="images__lst">
+                <div class="image__one">
+                    <img src="./images/auroraimg1.jpg" alt="image1">
+                    <div class="cpn__one"> Rome, Italy </div>
+                </div>
+
+                <div class="image__two">
+                    <img src="./images/auroraimg1.jpg" alt="image2">
+                    <div class="cpn__two"> Paris, France </div>
+                </div>
+
+                <div class="image__three">
+                    <img src="./images/auroraimg1.jpg" alt="image3">
+                    <div class="cpn__three"> Las Vegas, NV </div>
+                </div>
+
+                <div class="image__four">
+                    <img src="./images/auroraimg1.jpg" alt="image4">
+                    <div class="cpn__four"> Reykjavik, Iceland </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Browse themed collections-->
+    <div class="brth__img__cpn">
+        <h3 class="brth__img__title"> Browse themed collections </h3>
+        <div class="brth__img__lst">
+            <div class="brth__img__one">
+                <img src="./images/randomimg.jpg" alt="brthimg1">
+                <div class="brth__img__txt"> ultimate family travel guide</div>
+                <div class="brth__cpn__one"> Rome, Italy </div>
+            </div>
+            <div class="brth__img__two"> <img src="./images/randomimg.jpg" alt="brthimg1">
+                <div class="brth__img__txt"> from Utah to Dubai</div>
+                <div class="brth__cpn__one"> Rome, Italy </div>
+            </div>
+
+            <div class="brth__img__three"> <img src="./images/randomimg.jpg" alt="brthimg1">
+                <div class="brth__img__txt"> other culture hot spots</div>
+                <div class="brth__cpn__one"> Rome, Italy </div>
+            </div>
+
+            <div class="brth__img__four"> <img src="./images/randomimg.jpg" alt="brthimg1">
+                <div class="brth__img__txt"> other culture hot spots</div>
+                <div class="brth__cpn__one"> Rome, Italy </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="ftr__cnt">
+        <div class="ftr__cnt__one">
+            <div class="ftr__a__one">
+                <h2>About Tripadvisor</h2>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust & Safety</p>
+                <p>Contact us</p>
+                <p>Tripadvisor Technology Blog</p>
+            </div>
+            <div class="ftr__a__two">
+                <h2>Explore</h2>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join</p>
+                <p>Travellers' Choice</p>
+                <p>Help Centre</p>
+                <p>Travel Stories</p>
+            </div>
+
+            <div class="ftr__a__three">
+                <h2>Do Business With Us</h2>
+                <p>Owners</p>
+                <p>Business Advantage</p>
+                <p>Sponsored Placements</p>
+                <p>Advertise with Us</p>
+                <p>Access our Content API</p>
+
+                <h2>Get The App</h2>
+                <p>Iphone App</p>
+                <p>Android App</p>
+            </div>
+
+            <div class="ftr__a__four">
+                <h2>Tripadvisor Sites</h2>
+                <p>Book tours and attraction tickets on Viator</p>
+            </div>
+        </div>
+        <div class="ftr__cnt__two"> </div>
+        <div class="rights"> <img src="./images/Owl.png"> &copy 2025 Tripadvisor LLC All rights reserved. </div>
+        <div class="ftr__b__one">
+            <p class="ftr__b__one__txt">Terms of Use</p>
+            <p class="ftr__b__one__txt">Privacy and Cookies Statement</p>
+            <p class="ftr__b__one__txt">Cookies Consent</p>
+            <p class="ftr__b__one__txt">Site Map</p>
+            <p class="ftr__b__one__txt">How the site works</p>
+            <div class="inr"> <i class="fa-solid fa-indian-rupee-sign"></i> INR <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="india"> India <i class="fa-solid fa-caret-down"></i> </div>
+        </div>
+        <div class="ftr__b__two">
+            <p>Contact us</p>
+            <p>Accessibility Statement</p>
+        </div>
+        <div class="ftr__cnt__three">
+            <div class="ftr__cnt__three__txt"> Tripadvisor LLC makes no guarantees for availability of prices advertised
+                on our sites and applications. Listed prices may require a stay of a particular length or have blackout
+                dates, qualifications or other applicable restrictions. Tripadvisor LLC is not responsible for any
+                content on external web sites that are not owned or operated by Tripadvisor .
+                .
+                Tripadvisor LLC is not a booking agent or tour operator. When you book with one of our partners, please
+                be sure to check their site for a full disclosure of all applicable fees.
+            </div>
+            <div class="ftr__cnt__three__sym"> <i class="fa-brands fa-facebook"></i> <i
+                    class="fa-brands fa-x-twitter"></i> <i class="fa-brands fa-pinterest"></i> <i
+                    class="fa-brands fa-instagram"></i> <i class="fa-brands fa-youtube"></i> </div>
+        </div>
+    </div>
+</body>
+
+</html>
