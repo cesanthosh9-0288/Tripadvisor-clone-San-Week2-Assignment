@@ -320,7 +320,7 @@
 .world__img__cpn {
     padding: 20px;
     margin-left: 77px;
-    margin-top: 2px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -335,9 +335,10 @@
 .cpn__best__one {
     font-size: 39px;
     font-weight: bolder;
-    position: relative;
-    bottom: 195px;
-    left: 29px;
+    position: absolute;
+    top: 1920px;
+    right: 660px;
+    color: white;
 }
 
 .cpn__best__two {
@@ -365,7 +366,7 @@
     width: 78px;
     position: relative;
     left: 959px;
-    bottom: 586px;
+    bottom: 500px;
 }
 
 .ins__img__lst {
